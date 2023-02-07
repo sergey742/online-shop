@@ -1,0 +1,30 @@
+.sliderColor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sliderColor span {
+    color: #70C05B;
+}
+
+.sliderColor span span span {
+    color: #FFF;
+}
+
+.dash {
+    height: 1px;
+    min-width: 15px;
+    margin: 1px;
+    background-color: black;
+}
+
+.inputPrices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputPrices input {
+    width: 116px;
+    height: 34px;
+}

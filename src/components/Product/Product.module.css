@@ -1,0 +1,98 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    height: 349px;  
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.discountContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.oldPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.actualPrice {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 6px 0;
+    text-align: start;
+}
+
+.priceDescription {
+    font-size: 12px;
+    color: #BFBFBF;
+    margin: 0;
+    text-align: start;
+}
+
+.priceDescriptionOld {
+    font-size: 12px;
+    color: #BFBFBF;
+    margin: 0;
+    text-align: end;
+}
+
+.nonActualPrice {
+    font-size: 16px;
+    color: #606060;
+    margin: 6px 0;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    margin-bottom: 0;
+}
+
+.description {
+    margin: 8px 0;
+}
+
+.inCart {
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    color: #70C05B;
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    margin: 0 8px;
+    cursor: grab;
+}
+
+.rating {
+    text-align: start;
+    margin: 2px 0;
+}
+
+.description {
+    height: 42px;
+    text-align: start;
+    overflow: hidden;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: start;
+    margin-top: 6px;
+}
+
+.inCart:hover {
+    background-color: #FF6633;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,136 @@
+.background {
+    background-color: #FBF8EC;
+    padding-bottom: 80px;
+}
+
+.pathCompany {
+    color: #8F8F8F;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.path {
+    display: flex;
+    gap: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category {   
+    height: 200px;
+    background-repeat: no-repeat;
+    /* width: 272px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.categoryName {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 12px;
+    max-width: 272px;
+    text-align: start;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+    width: 100%;
+    height: 117px;
+    position: relative;
+    bottom: 0;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 272px);
+    gap: 40px
+}
+
+.categorySpan {
+    grid-column: span 2;
+    /* width: 584px; */
+}
+
+.category:hover .gradient{
+   background:  linear-gradient(180deg, rgba(255, 102, 51, 0) 0%, #FF6633 100%);
+}
+
+.backgroundImage1 {
+    background-image: url("../../../public/images/eggs.png");
+}
+.backgroundImage2 {
+    background-image: url("../../../public/images/bread.png");
+}
+.backgroundImage3 {
+    background-image: url("../../../public/images/fruit.png");
+}
+.backgroundImage4 {
+    background-image: url("../../../public/images/cold.png");
+}
+.backgroundImage5 {
+    background-image: url("../../../public/images/drinks.png");
+}
+.backgroundImage6 {
+    background-image: url("../../../public/images/sweets.png");
+}
+.backgroundImage7 {
+    background-image: url("../../../public/images/tea.png");
+}
+.backgroundImage8 {
+    background-image: url("../../../public/images/grocery.png");
+}
+.backgroundImage9 {
+    background-image: url("../../../public/images/health.png");
+}
+.backgroundImage10 {
+    background-image: url("../../../public/images/zoo.png");
+}
+.backgroundImage11 {
+    background-image: url("../../../public/images/child.png");
+}
+.backgroundImage12 {
+    background-image: url("../../../public/images/meat.png");
+}
+.backgroundImage13 {
+    background-image: url("../../../public/images/other.png");
+}
+
+@media (max-width: 1280px) {
+    .backgroundImage12 {
+        grid-row: 8;
+    }
+
+    .categories {
+        grid-template-columns: repeat(2, 272px);
+        margin: 0 auto;
+    }
+
+    .container h1 {
+        margin: 42px auto;
+    }
+
+    .path {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .categories {
+        grid-template-columns: repeat(1, 272px);
+    }
+
+    .categorySpan {
+        grid-column: span 1;
+    }
+}

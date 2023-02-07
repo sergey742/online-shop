@@ -1,0 +1,28 @@
+.path {
+    display: flex;
+    gap: 24px;
+}
+
+.pathCompany {
+    color: #8F8F8F;
+}
+
+.background {
+    background-color: #FBF8EC;
+    padding-bottom: 80px;
+    min-height: 75vh;
+}
+
+.contentName {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: start;
+    margin: 30px 0;
+}
+
+.productList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+

@@ -1,0 +1,19 @@
+.category::after {
+    content: '';
+    background-image: url("../../../public/images/menu.png");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 1002;
+    margin-left: 8px;
+}
+
+.container {
+    text-align: start;
+    /* width: 100%; */
+}
+
+.container p {
+    overflow: hidden;
+    margin-left: 8px;
+}

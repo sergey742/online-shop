@@ -1,0 +1,290 @@
+.background {
+    background-color: #FBF8EC;
+    padding-bottom: 80px;
+}
+
+.path {
+    display: flex;
+    gap: 24px;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.pathCompany {
+    color: #8F8F8F;
+}
+
+.container {
+    text-align: start;
+}
+
+.briefInfo {
+    display: flex;
+    font-size: 12px;
+    gap: 24px;
+    align-items: center;
+}
+
+.briefInfo img {
+    width: 24px;
+    height: 24px;
+}
+
+.ratingAbout {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.save {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.discountContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.oldPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.actualPrice {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 6px 0;
+    text-align: start;
+}
+
+.priceDescription {
+    font-size: 12px;
+    color: #BFBFBF;
+    margin: 0;
+    text-align: start;
+}
+
+.priceDescriptionOld {
+    font-size: 12px;
+    color: #BFBFBF;
+    margin: 0;
+    text-align: end;
+}
+
+.nonActualPrice {
+    font-size: 16px;
+    color: #606060;
+    margin: 6px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: start;
+    margin-top: 6px;
+}
+
+.aboutProduct {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0 80px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.mainImage {
+    width: 584px;
+    height: 496px;
+    background-color: white;
+}
+
+.inCart {
+    display: flex;
+    font-size: 24px;
+    height: 60px;
+    background-color: #FF6633;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inCart img {
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+}
+
+.inCart p {
+    margin: 0 auto;
+}
+
+.bonus {
+    margin: 16px auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.greenBonus {
+    color: #70C05B;
+}
+
+.briefProductInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.oddLine {
+    background-color: #F3F2F1;
+    margin: 0;
+    padding: 8px 0 8px 8px;
+}
+
+.evenLine {
+    margin: 0;
+    padding: 8px 0 8px 8px;
+}
+
+.baldColumn {
+    font-weight: 700;
+}
+
+.similarProduct {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    cursor: pointer;
+}
+
+.similarProduct img {
+    height: 57px;
+    width: 168px;
+}
+
+.similarProduct p {
+    margin: 10px;
+}
+
+.similarText {
+    color: #606060;
+    margin: 0;
+}
+
+.similar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.similarMap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.alsoProducts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.productsParagraph {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.rateContainer {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.overallRating {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    gap: 16px;
+}
+
+.commentsBlock {
+    display: flex;
+    gap: 144px;
+}
+
+.user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.user img {
+    width: 16px;
+    height: 16px;
+}
+
+.rateAndDate {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.commentDate {
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+.commentDescription {
+    font-size: 16px;
+}
+
+.userRating {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.inputText {
+    height: 100px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.sendComment {
+    background-color: #FCD5BA;
+    color: #FF6633;
+    height: 24px;
+    width: 188px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.inputComment {
+    width: 688px;
+}

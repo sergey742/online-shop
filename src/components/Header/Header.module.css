@@ -1,0 +1,234 @@
+.container {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.mobileBottom {
+    display: none;
+}
+
+.logoDiv {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logoDiv img {
+    height: 32px;
+}
+
+.catalog {
+    display: flex;
+    background-color: #70C05B;
+    color: white;
+    width: 140px;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 4px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+/* .catalog p {
+    margin: 8px;
+} */
+
+.iconCatalog {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin: 8px; */
+}
+
+.iconButton {
+    width: 19px;
+    height: 1px;
+    background-color: white;
+}
+
+.buttonAndSearch {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    padding: 8px; 
+}
+
+.fullSearch {
+    border: 1px solid green;
+    width: 300px;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+}
+
+.search img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.elementMenu img {
+    width: 24px;
+    height: 24px;
+}
+
+.account {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.accountMenu {
+    background-color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+}
+
+.accountImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.elementMenu p {
+    margin: 0;
+}
+
+.elementMenu {
+    cursor: pointer;
+}
+
+.catalogHover {
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    z-index: 1000;
+}
+
+.searchResults {
+    background-color: white;
+    position: absolute;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+    max-height: 400px;
+    overflow-y: scroll;
+    width: 300px;
+    border: 1px solid green;
+    border-top: none;
+    margin: -1px;
+}
+
+@media (max-width: 1280px) {
+    .catalog p {
+        display: none;
+    }
+
+    .catalog {
+        width: 40px;
+        padding: 14px 10px;
+    }
+
+    .container {
+        gap: 20px;
+    }
+
+    .account {
+        margin-right: 25px;
+    }
+
+    .account p {
+        display: none;
+    }
+
+    .accountMenu {
+        display: none;
+    }
+
+    .logoDiv {
+        margin-left: 20px;
+    }
+
+    .logoDiv p {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .mobileBottom {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 12px;
+        background-color: white;
+        z-index: 1000;
+        align-items: center;
+    }
+
+    .iconButton {
+        background-color: black;
+    }
+
+    .menuMobile {
+        display: flex;
+        gap: 24px;
+    }
+
+    .catalogMobile {
+        border: none;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .catalogMobile p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .fullSearch {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .searchResults {
+        width: 250px;
+        margin-right: 20px;
+    }
+}

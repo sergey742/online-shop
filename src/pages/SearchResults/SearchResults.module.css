@@ -1,0 +1,47 @@
+.background {
+    background-color: #FBF8EC;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.container {
+    text-align: start;
+}
+
+.pageName {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.request {
+    display: flex;
+    font-size: 24px;
+    gap: 10px;
+}
+
+.requestName {
+    color: #FF6633;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+@media (max-width: 1280px) {
+    .result {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .background {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .result {
+        grid-template-columns: 1fr;
+    }
+}

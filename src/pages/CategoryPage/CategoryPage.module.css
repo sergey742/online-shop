@@ -1,0 +1,195 @@
+.path {
+    display: flex;
+    gap: 24px;
+}
+
+.pathCompany {
+    color: #8F8F8F;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+}
+
+.categoriesFilter {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.pageName {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.more {
+    background-color: #F3F2F1;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 24px;
+    padding: 8px;
+    width: 157px;
+}
+
+.background {
+    background-color: #FBF8EC;
+    padding-bottom: 80px;
+}
+
+.filterHeader {
+    background-color: #F3F2F1;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 44px;
+    margin-top: 0;
+}
+
+.filterApplied {
+    display: flex;
+    font-size: 12px;
+    gap: 24px;
+}
+
+.applied {
+    display: flex;
+    gap: 14px;
+    height: 16px;
+    background-color: #70C05B;
+    color: white;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.close {
+    font-size: 30px;
+    position: relative;
+    bottom: 25%;
+    cursor: pointer;
+}
+
+.clearAllfilters {
+    display: flex;
+    gap: 14px;
+    height: 16px;
+    color: #606060;
+    background-color: #F3F2F1;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter {
+    width: 272px;
+    text-align: start;
+}
+
+.check {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.apply {
+    border: none;
+    background-color: #FF6633;
+    color: white;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #70C05B;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #70C05B;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 24px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

@@ -1,0 +1,13 @@
+.pages {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
+
+.activePage {
+    color: #FF6633;
+}
+
+.pages p {
+    cursor: pointer;
+}
